@@ -1,0 +1,9 @@
+foo:
+  bar:
+    p1: 1
+    p2: "* * * * * *"
+cron:
+  expr:
+    method3: 0 */1 * * * *
+    method4: "* * * * * *"
+    method6:  ${foo.bar.p2}
